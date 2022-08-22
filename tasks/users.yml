@@ -12,7 +12,7 @@
     mode: 0440
     
 - name: Set authorized keys taken from url
-  ansible.posix.authorized_key:
+  authorized_key:
     user: ansible
     state: present
     key: https://github.com/condolas.keys
