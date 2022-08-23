@@ -15,7 +15,7 @@
            - line: "RSAAuthentication yes"
              state: "absent"
            - regexp: "^Port\ "
-             line: "Port {{ ssh_port }}"
+             line: "Port 22"
            - regexp: "^PermitRootLogin\ "
              line: "PermitRootLogin no"
            - regexp: "^PasswordAuthentication\ "
