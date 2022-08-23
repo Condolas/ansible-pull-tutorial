@@ -11,4 +11,6 @@
   tasks:
     - include: tasks/users.yml
     - include: tasks/cron.yml
+    - include: tasks/update_os.yml
+    - include: tasks/sshd.yml
     - include: tasks/packages.yml
